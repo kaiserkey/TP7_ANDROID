@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_musica"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="MiMusica" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Ubicacion" />
+        <item
+            android:id="@+id/nav_salir"
+            android:icon="@android:drawable/btn_dialog"
+            android:title="Salir" />
+    </group>
+</menu>

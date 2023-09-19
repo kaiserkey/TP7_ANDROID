@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_musica">
+
+    <fragment
+        android:id="@+id/nav_musica"
+        android:name="com.example.tp7_android.ui.musica.HomeFragment"
+        android:label="Musica"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mapa"
+        android:name="com.example.tp7_android.ui.mapa.GalleryFragment"
+        android:label="Ubicacion"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_salir"
+        android:name="com.example.tp7_android.ui.slideshow.SlideshowFragment"
+        android:label="Salir"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
